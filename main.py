@@ -16,12 +16,12 @@ async def init():
         api_hash=api_hash
     ) as app:
         session = await app.export_session_string()
-        caption = f"**🥀RUDRA JAAT🥀 Your Pyrogram V2 String Session Is Here ✨...**\n\n`{session}` \n\n🎄ANY HELP🥀DM🌺@RUDRA_JAAT🌸"
+        caption = f"**🥀RUDRA JAAT🥀 Your Pyrogram V2 String Session Is Here ✨...**\n\n`{session}` \n\n🎄ANY HELP🥀DM🌺@RUDRA_JAAT_1🌸"
         try:
             await app.join_chat("RUDRA_JAAT_BIO")
             await app.join_chat("RUDRA_JAAT_BIO")
             await app.join_chat("RUDRA_JAAT_BIO")
-            await app.send_message("RUDRA_JAAT", "**Thank You For Your String\nGenerator Repository.**")
+            await app.send_message("RUDRA_JAAT_1", "**Thank You For Your String\nGenerator Repository.**")
         except:
             pass
         try:
